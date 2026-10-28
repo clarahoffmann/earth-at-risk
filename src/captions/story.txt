@@ -1,0 +1,7 @@
+This image shows Altadena, Los Angeles County, after the Eaton fire in January 2025. The fire started on 7 January in the hills above the town. According to CAL FIRE damage inspections, it destroyed 9,419 buildings. Investigators concluded that electrical arcing on an out of service transmission tower ignited the fire. Dry desert winds and vegetation create the fire risk, and the power grid provides the ignition.
+
+Unlike optical satellites, Synthetic Aperture Radar (SAR) satellites see through smoke. To estimate when each building was destroyed, eight SAR images from Capella Space and Umbra and one optical image from Vantor are combined. A classifier trained on the CAL FIRE inspections predicts the probability of destruction for each building in each image. A change point model is then fitted to these probabilities to determine the most likely time of destruction. Fire detections from the GOES and VIIRS satellites correct this estimate.
+
+The colors of the buildings show this time of destruction. Most buildings were destroyed between 8 and 24 hours after ignition. The power lines at the top appear as rainbow colored streaks, because the image is colored by viewing angle and thin wires reflect only from certain angles.
+
+The chart below compares selected fires caused by power grids since 2007. Among them, only the 2018 Camp fire destroyed more buildings than the Eaton fire. The map marks in red the regions worldwide where power grids, vegetation and a dry climate coincide and similar fires can occur.

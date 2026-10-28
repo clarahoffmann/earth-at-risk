@@ -61,9 +61,9 @@
     }
 
     [role="tab"] {
-      flex: 1;
+      flex: 1 1 auto;
       margin-bottom: -1px;
-      padding: 18px 12px 16px;
+      padding: 18px 10px 16px;
       background: none;
       border: 0;
       border-bottom: 2px solid transparent;
@@ -111,9 +111,11 @@
       <div role="tablist" aria-label="Text about the image">
         <button role="tab" id="tab-caption" data-key="caption" aria-controls="panel-caption" aria-selected="true">Image caption</button>
         <button role="tab" id="tab-note" data-key="note" aria-controls="panel-note" aria-selected="false" tabindex="-1">Technical note</button>
+        <button role="tab" id="tab-story" data-key="story" aria-controls="panel-story" aria-selected="false" tabindex="-1">Story</button>
       </div>
       <div role="tabpanel" id="panel-caption" aria-labelledby="tab-caption" tabindex="0" data-src="src/captions/image_caption.txt"></div>
       <div role="tabpanel" id="panel-note" aria-labelledby="tab-note" tabindex="0" data-src="src/captions/technical_note.txt" hidden></div>
+      <div role="tabpanel" id="panel-story" aria-labelledby="tab-story" tabindex="0" data-src="src/captions/story.txt" hidden></div>
     </aside>
   </main>
 
